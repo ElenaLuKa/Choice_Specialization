@@ -3,7 +3,7 @@
     string[] array = new string[size];
     Console.WriteLine("Enter an array of strings: ");
     for(int i = 0; i < size; i++)
-        array[i] = Console.ReadLine(); //как это исправить не нашла ответа. 
+        array[i] = Console.ReadLine(); //выдает ошибку "Возможно, назначение-ссылка, допускающее значение NULL" - как это исправить не нашла ответа. 
     return array;
 }
 
